@@ -1,0 +1,73 @@
+/* default */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100px;
+}
+
+/* container */
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  background-color: pink;
+  padding: 20px 0;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* form */
+.form {
+  padding: 20px;
+  background-color: darkseagreen;
+}
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+.form * + * {
+  margin-top: 12px;
+}
+
+/* main */
+main {
+  background-color: orange;
+}
+article {
+  background-color: coral;
+  font-size: 12px;
+}
+article h2 {
+  font-size: 1.2em;
+}
+article p {
+  font-size: 0.8em;
+}
+article + article {
+  margin-top: 20px;
+}
+
+/* footer */
+footer {
+  background-color: lightblue;
+  font-size: 10px;
+  padding: 20px 0 12px;
+  text-align: center;
+}
